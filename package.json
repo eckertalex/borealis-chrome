@@ -1,0 +1,23 @@
+{
+  "name": "borealis-chrome",
+  "version": "1.0.0",
+  "author": "Alexander Eckert",
+  "description": "VS Code theme inspired by the calm colors of the aurora borealis in Alaska.",
+  "license": "MIT",
+  "scripts": {
+    "start": "web-ext run --target=chromium",
+    "build": "web-ext build",
+    "lint": "web-ext lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eckertalex/borealis-chrome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eckertalex/borealis-chrome/issues"
+  },
+  "homepage": "https://github.com/eckertalex/borealis-chrome#readme",
+  "dependencies": {
+    "web-ext": "^4.3.0"
+  }
+}

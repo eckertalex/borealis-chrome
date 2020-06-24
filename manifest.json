@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Borealis Theme",
+  "short_name": "Borealis",
+  "description": "Google Chrome theme inspired by the calm colors of the aurora borealis in Alaska.",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "author": "Alexander Eckert",
+  "homepage_url": "https://eckertalex.dev/",
+  "theme": {
+    "colors": {
+      "frame": [18, 56, 54],
+      "frame_inactive": [25, 73, 69],
+      "frame_incognito": [38, 109, 103],
+      "frame_incognito_inactive": [28, 109, 103],
+      "background_tab": [18, 56, 54],
+      "background_tab_inactive": [25, 73, 69],
+      "background_tab_incognito": [38, 109, 103],
+      "background_tab_incognito_inactive": [28, 109, 103],
+      "bookmark_text": [255, 222, 17],
+      "tab_background_text": [170, 170, 170],
+      "tab_background_text_inactive": [170, 170, 170],
+      "tab_background_text_incognito": [170, 170, 170],
+      "tab_background_text_incognito_inactive": [170, 170, 170],
+      "tab_text": [255, 255, 255],
+      "toolbar": [25, 73, 69],
+      "toolbar_button_icon": [255, 222, 17],
+      "omnibox_text": [255, 255, 255],
+      "omnibox_background": [31, 98, 93],
+      "ntp_background": [25, 73, 69],
+      "ntp_text": [255, 255, 255]
+    }
+  }
+}
